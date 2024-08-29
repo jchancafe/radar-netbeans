@@ -4,14 +4,14 @@
 
     <groupId>org.radar</groupId>
     <artifactId>radar-netbeans</artifactId>
-    <version>3.0.1</version>
+    <version>3.0.2</version>
     <packaging>nbm</packaging>
 
     <name>radar-netbeans</name>
 
     <properties>
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
-        <netbeans.api.version>RELEASE82</netbeans.api.version>
+        <netbeans.api.version>RELEASE90</netbeans.api.version>
     </properties>
 
     <repositories>
@@ -57,11 +57,11 @@
             <artifactId>sonar-scanner-api</artifactId>
             <version>2.8</version>
         </dependency>
-        <dependency> 
-            <groupId>com.google.code.findbugs</groupId> 
-            <artifactId>jsr305</artifactId> 
-            <version>2.0.1</version> 
-        </dependency> 
+        <dependency>
+            <groupId>com.google.code.findbugs</groupId>
+            <artifactId>jsr305</artifactId>
+            <version>2.0.1</version>
+        </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-netbeans-api-annotations-common</artifactId>
@@ -168,6 +168,12 @@
             <artifactId>commons-httpclient</artifactId>
             <version>3.1</version>
         </dependency>-->
+        <!-- https://mvnrepository.com/artifact/javax.xml.bind/jaxb-api -->
+        <dependency>
+            <groupId>javax.xml.bind</groupId>
+            <artifactId>jaxb-api</artifactId>
+            <version>2.3.1</version>
+        </dependency>
         <dependency>
             <groupId>org.apache.maven</groupId>
             <artifactId>maven-model</artifactId>
@@ -226,12 +232,12 @@
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-openide-util-ui</artifactId>
-            <version>RELEASE82</version>
+            <version>${netbeans.api.version}</version>
         </dependency>
         <dependency>
             <groupId>org.netbeans.api</groupId>
             <artifactId>org-netbeans-api-progress-nb</artifactId>
-            <version>RELEASE82</version>
+            <version>${netbeans.api.version}</version>
         </dependency>
     </dependencies>
 

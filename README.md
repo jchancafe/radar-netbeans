@@ -1,7 +1,8 @@
 # Radar
+### Version for Netbeans 2x, using jdk > 1.8
 
 Radar is a plugin for Netbeans to navigate directly from the issue to the code without leaving your IDE.
-
+ 
 You can retrieve issues from a server or you can run a local analysis.
 
 ## Configuration
